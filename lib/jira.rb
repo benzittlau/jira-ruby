@@ -12,6 +12,7 @@ require 'jira/http_error'
 
 require 'jira/resource/user'
 require 'jira/resource/attachment'
+require 'jira/resource/changelog'
 require 'jira/resource/component'
 require 'jira/resource/issuetype'
 require 'jira/resource/version'

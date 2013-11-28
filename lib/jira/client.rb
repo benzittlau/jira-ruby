@@ -67,6 +67,10 @@ module JIRA
       @options.freeze
     end
 
+    def Changelog # :nodoc:
+      JIRA::Resource::ChangelogFactory.new(self)
+    end
+
     def Project # :nodoc:
       JIRA::Resource::ProjectFactory.new(self)
     end
